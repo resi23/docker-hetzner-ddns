@@ -1,5 +1,7 @@
 FROM golang:1.19.1-nanoserver
 
+PLATFORM Linux/arm64/v8
+
 WORKDIR /app
 
 COPY go.mod ./
